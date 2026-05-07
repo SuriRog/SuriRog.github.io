@@ -10,4 +10,5 @@ if RUBY_VERSION >= "3.2"
 end
 gem "minimal-mistakes-jekyll"
 source "https://rubygems.org"
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # ... 이하 기존 내용 유지
