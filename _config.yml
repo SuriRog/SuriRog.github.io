@@ -36,7 +36,7 @@ copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "SuriRog"
+    shortname            : "surirog"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -317,7 +317,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: default
       author_profile: true
       read_time: true
       comments: true
