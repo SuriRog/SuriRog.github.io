@@ -5,6 +5,10 @@ categories: wargame
 tag : [python,jekyll]
 tag : [python,jekyll]
 toc : true
+author_profile: false
+sidebar:
+    nav: "docs"
+search: false
 comments: true
 ---
 
