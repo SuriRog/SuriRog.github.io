@@ -8,32 +8,32 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* 1. 검색 버튼 제외한 나머지 상단 메뉴 숨기기 */
-.masthead__menu-item:not(.masthead__menu-item--search) {
-  display: none !important;
+/* 알약 모양 검색 바 디자인 */
+.custom-search-bar {
+  display: inline-flex !important;
+  align-items: center !important;
+  background-color: rgba(255, 255, 255, 0.15) !important; /* 배경색 */
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;  /* 테두리 */
+  border-radius: 25px !important;                         /* 알약 모양 */
+  padding: 8px 18px !important;
+  margin-left: 15px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  outline: none !important;
 }
 
-/* 2. 검색 바 디자인: 배경색과 테두리를 더 밝게 */
-.masthead__menu-item--search {
-  display: inline-block !important;
-  background-color: rgba(255, 255, 255, 0.2) !important; /* 투명도를 낮춰 더 밝게 설정 */
-  padding: 6px 20px !important;
-  border-radius: 25px !important;
-  border: 1.5px solid rgba(255, 255, 255, 0.5) !important; /* 테두리를 더 진하게 */
-  margin-left: 10px;
-  vertical-align: middle;
+/* 마우스 올렸을 때 효과 */
+.custom-search-bar:hover {
+  background-color: rgba(255, 255, 255, 0.25) !important;
 }
 
-/* 3. "Search..." 글자 색상을 흰색으로 강조 */
-.masthead__menu-item--search a::after {
-  content: " Search..." !important;
+/* 아이콘과 글자 색상 */
+.custom-search-bar i,
+.custom-search-bar .search-placeholder {
+  color: #ffffff !important;
+  margin: 0 4px !important;
+}
+
+.custom-search-bar .search-placeholder {
   font-size: 0.9rem !important;
-  color: #ffffff !important; /* 완전 흰색으로 변경 */
-  font-family: inherit;
-  font-weight: bold;         /* 글자를 조금 더 두껍게 */
-}
-
-/* 4. 돋보기 아이콘 색상도 흰색으로 강조 */
-.masthead__menu-item--search i {
-  color: #ffffff !important; /* 완전 흰색으로 변경 */
 }
