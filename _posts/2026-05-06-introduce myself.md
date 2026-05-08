@@ -1,13 +1,14 @@
 ---
 layout: single
 title: "첫 포스팅 입니다. 많이 설레네요!."
+sidebar:
+    nav: "main"
 categories: wargame
 tag : [python,jekyll]
-tag : [python,jekyll]
 toc : true
-author_profile: false
-sidebar:
-    nav: "docs"
+toc_sticky: true
+toc_label: "Contents"
+author_profile: true
 search: false
 comments: true
 ---

@@ -308,6 +308,8 @@
       values:
         layout: single
         author_profile: true
+        sidebar:
+           nav: "main" # 위에서 만든 main 메뉴를 사이드바에 띄우겠다는 설정
         read_time: true
         comments: true
         share: true
