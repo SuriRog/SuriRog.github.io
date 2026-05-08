@@ -11,7 +11,7 @@ sidebar:
 search: false
 comments: true
 ---
-**[공지사항]**::[SuriRog 블로그 신규 업데이트 안내 드립니다.](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+**[공지사항]**::[Surilog 블로그 신규 업데이트 안내 드립니다.](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 {: .notice--info}
 
 <div class="notice--success">
@@ -30,7 +30,7 @@ comments: true
 ## 세부 목차
 
 ## 열심히 하겠습니다.
-![SuriRog](/images/2026-05-06-first-posting/profile.jpg)
+![Surilog](/images/2026-05-06-first-posting/profile.jpg)
 
 ```python
 # 두 수를 더하는 함수 정의
