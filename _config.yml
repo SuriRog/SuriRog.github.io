@@ -313,6 +313,4 @@ defaults:
       share: true
       related: true
       show_date: true
-      toc: true
-      toc_sticky: true
 date_format: "%y-%m-%d"
