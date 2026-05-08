@@ -6,8 +6,8 @@ main:
     url: /categories/
   - title: "TAGS"
     url: /tags/
-  - title: "ARCHIVES"
-    url: /archives/
+  - title: "By Year"
+    url: /year-archivs/
   - title: "ABOUT"
     url: /about/
 #오른쪽 위 상단바
